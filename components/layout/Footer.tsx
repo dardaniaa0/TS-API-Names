@@ -6,7 +6,7 @@ const Footer = () => {
 		<footer className={`${containerBaseStyles} text-center  pb-5 mt-20`}>
 			<p className="text-center">
 				<a className={`${linkBaseStyles} text-hundred`}
-				href="http://0hundred.dev"
+				href="http://"
 					target="_blank" rel="noopener noreferrer">
 					0hundred0 {''}
 				</a> 

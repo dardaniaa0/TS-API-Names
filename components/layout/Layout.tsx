@@ -28,7 +28,7 @@ const Layout = ({children, metaInfo}: _DocumentProps) => {
 	const currentPath = host + router.asPath;
 
 	const meta: IMeta = {
-		title: 'Ultima.rest - The Quote API for Gamers',
+		title: 'The Names API',
 		image: `${host}/images/ultima_log.png`,
 		type: 'website',
 		description: 'A free RESTful API serving quotes gamers and developers alike.',
