@@ -68,7 +68,7 @@ export default function Home() {
 					<Codeblock>
 						<div>
 							<span className="text-mako">fetch</span>
-							<span className="text-gold">{"('https://ultima.rest/api/random')"}</span>
+							<span className="text-gold">{"('https://ts-api-names.vercel.app/api/random')"}</span>
 						</div>
 
 						<div className="ml-4">

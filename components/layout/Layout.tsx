@@ -24,7 +24,7 @@ const Layout = ({children, metaInfo}: _DocumentProps) => {
 	// assigns host based on development or production
 	const host = process.env.NODE_ENV !== 'production'
 		? 'http://localhost:3000'
-		: 'https://ultima.rest'
+		: 'https://ts-api-names.vercel.app'
 	const currentPath = host + router.asPath;
 
 	const meta: IMeta = {

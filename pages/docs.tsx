@@ -140,7 +140,7 @@ const docs = () => {
 					<div ref={quoteById}>
 						<FetchExample 
 							head={'Get Quote by ID'} 
-							id='quote-by-id' link='https://ultima.rest/api/quote?id=6' 
+							id='quote-by-id' link='https://ts-api-names.vercel.app/api/quote?id=6' 
 							mb={'mb-28 sm:mb-32'}
 						/>
 					</div>
@@ -148,7 +148,7 @@ const docs = () => {
 					<div ref={randomQuoteRef}>
 						<FetchExample 
 							head={'Get Random Quote'} 
-							id='random-quote' link='https://ultima.rest/api/random' 
+							id='random-quote' link='https://ts-api-names.vercel.app/api/random' 
 							mb={'mb-28 sm:mb-32'}
 						/>
 					</div>
@@ -156,7 +156,7 @@ const docs = () => {
 					<div ref={randomQuoteCharRef}>
 						<FetchExample 
 							head={'Get Random Quote by Character'} 
-							id='random-quote-char' link='https://ultima.rest/api/quote/character?name=kratos' 
+							id='random-quote-char' link='https://ts-api-names.vercel.app/api/quote/character?name=kratos' 
 							mb={'mb-28 sm:mb-32'} 
 						/>
 					</div>
@@ -164,7 +164,7 @@ const docs = () => {
 					<div ref={randomQuoteTitleRef}>
 						<FetchExample 
 							head={'Get Random Quote by Game'} 
-							id='random-quote-title' link='https://ultima.rest/api/quote/game?title=nier+automata' 
+							id='random-quote-title' link='https://ts-api-names.vercel.app/api/quote/game?title=nier+automata' 
 							mb={'mb-28 sm:mb-32'} 
 						/>
 					</div>
@@ -172,7 +172,7 @@ const docs = () => {
 					<div ref={randomQuotesRef}>
 						<FetchExample 
 							head={'Get 5 Random Quotes'} 
-							id='random-quotes' link='https://ultima.rest/api/quotes/random' 
+							id='random-quotes' link='https://ts-api-names.vercel.app/api/quotes/random' 
 							mb={'mb-28 sm:mb-32'} multiple={true}
 						/>
 					</div>
@@ -180,7 +180,7 @@ const docs = () => {
 					<div ref={randomQuotesCharRef}>
 						<FetchExample 
 							head={'Get 5 Random Quotes by Characters'} 
-							id='random-quotes-char' link='https://ultima.rest/api/quotes/character?name=sephiroth' 
+							id='random-quotes-char' link='https://ts-api-names.vercel.app/api/quotes/character?name=sephiroth' 
 							mb={'mb-28 sm:mb-32'} multiple={true}
 						/>
 					</div>
@@ -188,7 +188,7 @@ const docs = () => {
 					<div ref={randomQuotesTitleRef}>
 						<FetchExample 
 							head={'Get 5 Random Quotes by Game'} 
-							id='random-quote-title' link='https://ultima.rest/api/quotes/game?title=final+fantasy+VII' 
+							id='random-quote-title' link='https://ts-api-names.vercel.app/api/quotes/game?title=final+fantasy+VII' 
 							mb={'mb-10'} multiple={true}
 						/>
 					</div>
