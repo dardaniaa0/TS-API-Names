@@ -20,8 +20,8 @@ export default async function handler(
 	let { limit } = query;
 	let userLimit = 25;
 
-	if(limit && Number(limit) > 10) {
-		userLimit = 10
+	if(limit && Number(limit) > 25) {
+		userLimit = 25
 	} else if(limit) {
 		userLimit = Number(limit)
 	}
