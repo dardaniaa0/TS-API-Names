@@ -18,7 +18,7 @@ export default async function handler(
 	await runMiddleware(req, res, cors);
 	const query = req.query;
 	let { limit } = query;
-	let userLimit = 5;
+	let userLimit = 25;
 
 	if(limit && Number(limit) > 10) {
 		userLimit = 10
