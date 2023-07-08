@@ -16,7 +16,7 @@ export default async function handler(
 	} = await supabase
 		.from('Quotes')
 		.select(`*`)
-		.eq('id', id)
+		.eq('nameID', id)
 
 	error && console.log(error);
 	game && res.json(game[0]);

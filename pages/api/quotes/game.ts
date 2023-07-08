@@ -35,7 +35,7 @@ export default async function handler(
 			} = await supabase
 				.from('Quotes')
 				.select(`*`)
-				.textSearch('title', title)
+				.textSearch('name', title)
 			
 			if(error && status !== 406) {
 				throw error

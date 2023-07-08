@@ -24,7 +24,7 @@ export default async function handler(
 			} = await supabase
 				.from('Quotes')
 				.select(`*`)
-				.eq('title', title)
+				.eq('name', title)
 			
 			if(error && status !== 406) {
 				throw error

@@ -56,27 +56,27 @@ const FetchExample = ({ head, link, id, mb, multiple }:
 					</p>
 					
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">id:</span><span className="text-gold">{" ...,"}</span>
+						<span className="text-mako">nameID:</span><span className="text-gold">{" ...,"}</span>
 					</p>
 
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">quote:</span><span className="text-gold">{` "...",`}</span>
+						<span className="text-mako">meaning:</span><span className="text-gold">{` "...",`}</span>
 					</p>
 
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">character:</span><span className="text-gold">{` "...",`}</span>
+						<span className="text-mako">category:</span><span className="text-gold">{` "...",`}</span>
 					</p>
 
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">title:</span><span className="text-gold">{` "..."`}</span>
+						<span className="text-mako">name:</span><span className="text-gold">{` "..."`}</span>
 					</p>
 
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">esrb:</span><span className="text-gold">{` "...",`}</span>
+						<span className="text-mako">gender:</span><span className="text-gold">{` "...",`}</span>
 					</p>
 					
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">release:</span><span className="text-gold">{` ...,`}</span>
+						<span className="text-mako">isFeatured:</span><span className="text-gold">{` ...,`}</span>
 					</p>
 					{multiple 
 						? <p>

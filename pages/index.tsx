@@ -117,26 +117,26 @@ export default function Home() {
 									<>
 									<p>{'{'}</p>
 										<p className="ml-4">
-											<span className="text-mako">id:</span><span className="text-gold">{" "+randomQuote.id+','}</span>
+											<span className="text-mako">nameID:</span><span className="text-gold">{" "+randomQuote.nameID+','}</span>
 										</p>
 
 										<p className="ml-4">
-											<span className="text-mako">quote:</span><span className="text-gold">{` '${randomQuote.quote}',`}</span>
+											<span className="text-mako">meaning:</span><span className="text-gold">{` '${randomQuote.meaning}',`}</span>
 										</p>
 
 										<p className="ml-4">
-											<span className="text-mako">character:</span><span className="text-gold">{` '${randomQuote.character}',`}</span>
+											<span className="text-mako">category:</span><span className="text-gold">{` '${randomQuote.category}',`}</span>
 										</p>
 
 										<p className="ml-4">
-											<span className="text-mako">title:</span><span className="text-gold">{` '${randomQuote.title}'`}</span>
+											<span className="text-mako">name:</span><span className="text-gold">{` '${randomQuote.name}'`}</span>
 										</p>
 										
 										<p className="ml-4">
-											<span className="text-mako">esrb:</span><span className="text-gold">{` '${randomQuote.esrb}',`}</span>
+											<span className="text-mako">gender:</span><span className="text-gold">{` '${randomQuote.gender}',`}</span>
 										</p>
 										<p className="ml-4">
-											<span className="text-mako">release:</span><span className="text-gold">{" "+randomQuote.release+','}</span>
+											<span className="text-mako">isFeatured:</span><span className="text-gold">{" "+randomQuote.isFeatured+','}</span>
 										</p>
 										<p>{'}'}</p>
 									</>
@@ -147,8 +147,8 @@ export default function Home() {
 					</Codeblock>
 
 					{(display && randomQuote) && <p className="mt-5 text-lg">Here is a quote by {''}
-						<span className="font-medium text-mako">{randomQuote.character}</span> from {''}
-						<span className="font-medium text-mako">{randomQuote.title}</span> 👾</p>}				
+						<span className="font-medium text-mako">{randomQuote.list}</span> from {''}
+						<span className="font-medium text-mako">{randomQuote.name}</span> 👾</p>}				
 			</section>
 			<Contributors />
       	</Layout>
